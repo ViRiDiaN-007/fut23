@@ -7,6 +7,7 @@ Get quick insight into your fut club and transfer list prices. Track profits and
 ### Dependencies
 
 * Requires Python3
+
 -requests
 -PYyaml
 
