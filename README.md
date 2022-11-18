@@ -36,6 +36,8 @@ Install with
 ### Executing program
 
 * Start the program with `py main.py`, `python3 main.py` or whatever else your picky system might be asking for
+* Download all your club players by going to ```Load players``` > ```Refresh All```
+* Get your club values by going to ```Valuations``` and running those modules
 
 ## Version History
 * 0.1
