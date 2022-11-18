@@ -20,6 +20,13 @@ Install with
 * The sesion ID header is listed as `X-UT-SID` on requests made to the web app. Just copy and paste the value into the auth config.
 * The session ID seems to be valid for at least an hour, which is more than enough time to pull your club stats
 
+* To get your sesion ID header, open chrome, sign into the EA web app, then hit ```CTRL+SHIFT+i```. The web app screen might pause and say "paused in debugger". To get around it, click back on the web app and press ```ctrl+F8```. 
+![Click the network tab](https://i.imgur.com/aB3JhDZ.png)
+* Now just navigate around the web app and you will see the Network tab populate with requests. 
+![Click on a request](https://i.imgur.com/lBX0ymF.png)
+*Find a request with the X-UT-SID header
+![Copy it](https://i.imgur.com/VyE9htH.png)
+
 ### Executing program
 
 * Start the program with `py main.py`, `python3 main.py` or whatever else your picky system might be asking for
